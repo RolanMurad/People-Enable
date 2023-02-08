@@ -1,14 +1,14 @@
 # **People-Enable** 🤸🏻
 Responsive and **adaptive** website of **excursions** and **developmental circles** for **children** and **adults** in the **UAE.**
 
-**What's inside ?** :mag_right:
+**What's inside?** :mag_right:
 * **Responsive** and **adaptive** up to **280px**. :white_check_mark:
 * **Pop-up windows** and other **interactive elements.**:white_check_mark:
 * **Media queries** and **global styles** are in a separate file.:white_check_mark:
 * **BEM naming** in HTML and CSS. :white_check_mark:
 * **Valid** and **Semantic** HTML and CSS code (**W3C**). :white_check_mark:
 * **Pixel Perfect**. :white_check_mark:
-* **Cross Browser Compatibility** (Firefox, Chrome, Opera, Safari, Yandex Browser, Microsoft Edge...). :white_check_mark:
+* **Cross-Browser Compatibility** (Firefox, Chrome, Opera, Safari, Yandex Browser, Microsoft Edge...). :white_check_mark:
 * **WEB** images format. :white_check_mark:
 ---- 
 **The technology stack that was used :**

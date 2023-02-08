@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>People Enable</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="main-page"> <!-- !Header -->
+  <header class="header">
+    <div class="container header__container"> <a class="logo" href="#">
+        <picture>
+          <source srcset="./images/logo.svg" type="image/webp"><img src="./images/logo.svg" alt="logo">
+        </picture>
+      </a>
+      <nav class="navbar" data-navbar>
+        <ul class="nav__list">
+          <li class="nav__list-item"><a class="nav__link" href="#home">Номе</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#activities">Activities</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#events">Events</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#about">About Us</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#faq">FAQ</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="join.html">Sign Up</a></li>
+        </ul>
+      </nav> <button class="burger" data-burger aria-label="Открыть меню" aria-expanded="false"> <span
+          class="burger__line"></span> </button>
+    </div>
+  </header>
+  <div class="wrapper">
+    <main class="main"> <!-- !Sections --> <!-- !Hero -->
+      <section class="section__hero" id="home">
+        <div class="container">
+          <div class="hero">
+            <div class="hero__content">
+              <h1 class="hero__content-title"> <span>Engaging with the community,</span> doing what you like </h1>
+              <h2 class="hero__content-subtitle"> We bring prosperity to society through embracing diversity </h2>
+              <div class="hero__links"> <a class="hero__link-left" href="join.html">JOIN US</a> <a
+                  class="hero__link-right link" href="join.html">Learn more</a> </div>
+            </div>
+            <div class="hero__img">
+              <picture>
+                <source srcset="./images/hero.svg" type="image/webp"><img src="./images/hero.svg" alt="hero__img">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section> <!-- !Avtivities -->
+      <section class="section__activities" id="activities">
+        <div class="container">
+          <div class="activities">
+            <div class="activities__item activities__item--training">
+              <div class="activities__img">
+                <picture>
+                  <source srcset="./images/training.webp" type="image/webp"><img src="./images/training.jpg"
+                    alt="training__img">
+                </picture>
+              </div>
+              <div class="activities__descr">
+                <h3 class="activities__descr-title activities__descr-title--pink">training</h3>
+                <h4 class="activities__descr-subtitle">Provide support in terms of volunteering:</h4>
+                <ul class="activities__list">
+                  <li class="activities__list-item"> Piano lessons </li>
+                  <li class="activities__list-item"> Ballet lessons </li>
+                </ul>
+              </div>
+              <div class="activities__item-link"> <a href="#">more info</a>
+                <picture>
+                  <source srcset="./images/decor-1.svg" type="image/webp"><img class="activities__decor"
+                    src="./images/decor-1.svg" alt="decor__img">
+                </picture>
+              </div>
+            </div>
+            <div class="activities__item activities__item--excursions">
+              <div class="activities__item-link activities__item-link--excursions"> <a href="#">more info</a>
+                <picture>
+                  <source srcset="./images/decor-2.svg" type="image/webp"><img class="activities__decor"
+                    src="./images/decor-2.svg" alt="decor__img">
+                </picture>
+              </div>
+              <div class="activities__descr activities__descr--excursions">
+                <h3 class="activities__descr-title activities__descr-title--yellow">Excursions</h3>
+                <h4 class="activities__descr-subtitle">Spend quality tie with groups in excursions:</h4>
+                <div class="activities__lists">
+                  <ul class="activities__list">
+                    <li class="activities__list-item"> Fishing </li>
+                    <li class="activities__list-item"> Hiking </li>
+                  </ul>
+                  <ul class="activities__list">
+                    <li class="activities__list-item"> Diving </li>
+                    <li class="activities__list-item"> Yoga </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="activities__img">
+                <picture>
+                  <source srcset="./images/excursions.webp" type="image/webp"><img src="./images/excursions.jpg"
+                    alt="excursions__img">
+                </picture>
+              </div>
+            </div>
+            <div class="activities__item activities__item--knwoledge">
+              <div class="activities__img">
+                <picture>
+                  <source srcset="./images/knowledge.webp" type="image/webp"><img src="./images/knowledge.jpg"
+                    alt="knowledge__img">
+                </picture>
+              </div>
+              <div class="activities__descr">
+                <h3 class="activities__descr-title activities__descr-title--blue">Knowledge</h3>
+                <h4 class="activities__descr-subtitle">Provide support in terms of volunteering:</h4>
+                <ul class="activities__list">
+                  <li class="activities__list-item"> Dammam Social Clubs </li>
+                  <li class="activities__list-item"> Saudi Friends Community </li>
+                  <li class="activities__list-item"> University degrees </li>
+                </ul>
+              </div>
+              <div class="activities__item-link"> <a href="#">more info</a>
+                <picture>
+                  <source srcset="./images/decor-3.svg" type="image/webp"><img class="activities__decor"
+                    src="./images/decor-3.svg" alt="decor__img">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- !About -->
+      <section class="section__about" id="about">
+        <div class="container">
+          <h4 class="section__title">About us</h4>
+          <div class="about">
+            <picture>
+              <source srcset="./images/about.webp" type="image/webp"><img class="about__img" src="./images/about.jpg"
+                alt="about">
+            </picture>
+            <div class="about__content">
+              <p class="about__content-text"> People Enable is a non-profit organization that provides the tools in
+                order to integrate and synergize to improve the Quality of Life </p> <a class="about__content-link link"
+                href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </section> <!-- !Circles -->
+      <section class="section__circles">
+        <div class="container">
+          <h4 class="section__circles-title">Explore Communities Along With Their Circles</h4>
+          <div class="circles">
+            <div class="circles__item">
+              <div class="circles__item-category">Training</div>
+              <div class="circles__slider-first">
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/ballet.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/ballet.jpg" alt="ballet__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Ballet </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Receive training from Jessica on how to dance the ballet. </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/piano.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/piano.jpg" alt="piano__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Piano lessons </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Receive piano lessons from Trecy on how to play the piano. </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="circles__item">
+              <div class="circles__item-category">Excursions</div>
+              <div class="circles__slider-second">
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/fishing.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/fishing.jpg" alt="fishing__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Fishing </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Deep Sea Fishing Trips in Dubai </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/diving.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/diving.jpg" alt="diving__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Diving </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Discover Dubai's magical underater world. </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/swimming.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/swimming.jpg" alt="swimming__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Swimming </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Swim and look beautiful </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="circles__item">
+              <div class="circles__item-category">knowlege</div>
+              <div class="circles__slider-third">
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/yoga.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/yoga.jpg" alt="yoga__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Yoga </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Feel confident no matter what size you’re in </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/friends.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/friends.jpg" alt="friends__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Friends </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> It takes a long time to grow an old friend </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="circles__item">
+              <div class="circles__item-category">Training</div>
+              <div class="circles__slider-first">
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/basketball.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/basketball.jpg" alt="basketball__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Basketball </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Let's make the dream happen. </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/table__tennis.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/table__tennis.jpg" alt="table-tennis__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Table Tennis </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Table tennis develops dexterity and coordination. </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="circles__item">
+              <div class="circles__item-category">Excursions</div>
+              <div class="circles__slider-second">
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/baggie.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/baggie.jpg" alt="baggie__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Extreme Safari in Dubai </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Extreme Safari On Buggies and ATVs </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/dubai.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/dubai.jpg" alt="dubai__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Dubai Excursion With Cruise </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Dubai is famous for its modern architecture and innovative
+                        building projects, which is what this trip is all about. </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/dolphins.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/dolphins.jpg" alt="dolphins__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Swimming with dolphins </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Become different in the water </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="circles__item">
+              <div class="circles__item-category">knowlege</div>
+              <div class="circles__slider-third">
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/handball.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/handball.jpg" alt="handball__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Handball </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Handball with no boundaries </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="circles__slider-item">
+                  <div class="circles__item-wrapper">
+                    <picture>
+                      <source srcset="./images/karate.webp" type="image/webp"><img class="circles__item-img"
+                        src="./images/karate.jpg" alt="karate__img">
+                    </picture>
+                    <div class="circles__item-info">
+                      <h5 class="circles__item-title"> Karate </h5>
+                      <div class="circles__item-reviews">
+                        <picture>
+                          <source srcset="./images/stars.svg" type="image/webp"><img class="circles__item-stars"
+                            src="./images/stars.svg" alt="stars__img">
+                        </picture>
+                        <div class="circles__item-value">25 rewiews</div>
+                      </div>
+                      <div class="circles__item-text"> Karate training - the key to perfection! </div>
+                      <div class="circles__item-links"> <a class="circles__item-link circles__item--first"
+                          href="join.html">Sign Up</a> <a class="circles__item-link link" href="#">Learn more</a>
+                        <picture>
+                          <source srcset="./images/circles-arrow.svg" type="image/webp"><img class="circles__item-arrow"
+                            src="./images/circles-arrow.svg" alt="arrow__img">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="circles__btn-center"> <button class="circles__show-more">see all</button> </div>
+          </div>
+        </div>
+      </section> <!-- !Calendar -->
+      <div class="section__events">
+        <div class="container">
+          <div class="events">
+            <h3 class="events__title">up comming activities</h3>
+            <ul class="events__selects">
+              <li class="dropdown"> <button class="dropdown__button" type="button">Category</button>
+                <picture>
+                  <source srcset="images/down-arrow.svg" type="image/webp"><img class="dropdown__arrow"
+                    src="images/down-arrow.svg" alt="arrow">
+                </picture>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="#"> Training </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="#"> Exursions </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="#"> Knowlege </a> </li>
+                </ul>
+              </li>
+              <li class="dropdown"> <button class="dropdown__button" type="button">Location</button>
+                <picture>
+                  <source srcset="images/down-arrow.svg" type="image/webp"><img class="dropdown__arrow"
+                    src="images/down-arrow.svg" alt="arrow">
+                </picture>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="#"> Al-Barsha </a> </li>
+                  <li class="dropdown__list-item"> <a class="dropdown__list-link" href="#"> Palm </a> </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="calendar" id="events">
+              <div class="calendar__wrapper">
+                <div class="calendar__main">
+                  <div class="calendar__header">
+                    <div class="calendar__month"></div>
+                    <div class="calendar__year"></div>
+                    <div class="calendar__next-month"> <span></span>
+                      <picture>
+                        <source srcset="./images/calendar-arrow.svg" type="image/webp"><img class="calendar__arrow"
+                          src="./images/calendar-arrow.svg" alt="next__month-arrow">
+                      </picture>
+                      <div class="comeback">Prev month</div>
+                    </div>
+                  </div>
+                  <div class="calendar__body">
+                    <div class="calendar__weekdays">
+                      <div class="calendar__weekdays-item">MO</div>
+                      <div class="calendar__weekdays-item">TU</div>
+                      <div class="calendar__weekdays-item">WE</div>
+                      <div class="calendar__weekdays-item">TH</div>
+                      <div class="calendar__weekdays-item">FR</div>
+                      <div class="calendar__weekdays-item">SA</div>
+                      <div class="calendar__weekdays-item">SU</div>
+                    </div>
+                    <div class="calendar__days"></div>
+                  </div>
+                </div>
+                <div class="calendar__events">
+                  <div class="calendar__events-item">Exursions</div>
+                  <div class="calendar__events-item">Training</div>
+                  <div class="calendar__events-item">Knowlege</div>
+                </div>
+              </div>
+              <div class="calendar__info">
+                <div class="calendar__info-header">
+                  <div class="calendar__info-title"> EVENTS FOR <span class="calendar__current-day"></span> </div>
+                </div>
+                <div class="calendar__info-body">
+                  <div class="calendar__info-item">
+                    <div class="calendar__info-event">Diving</div>
+                    <div class="calendar__info-places">Free places avaliable</div>
+                  </div>
+                  <div class="calendar__info-item">
+                    <div class="calendar__info-time">12:00 - 13:00</div>
+                    <div class="calendar__info-location">Dubai</div>
+                  </div>
+                </div>
+                <div class="calendar__info-footer"> <a class="calendar__reserve" href="#">Reserve place</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- !FAQ -->
+      <section class="section__faq" id="faq">
+        <div class="container">
+          <div class="faq">
+            <h3 class="faq__title">frequently asked <span>questions</span></h3>
+            <div class="faq__accordion">
+              <ul class="faq__accordion-list">
+                <li class="accordion" data-accordion> <button class="accordion__control" data-control
+                    aria-expanded="false">
+                    <h3 class="accordion__title"> Why is People Enable focusing on Training, Excursions and Knowledge?
+                    </h3> <span class="accordion__icon"> </span>
+                  </button>
+                  <div class="accordion__content" data-content aria-hidden="true"> Because People Enable aims to
+                    empasize certain unique skills that would bring well-being to people and they are in these 3
+                    communities </div>
+                </li>
+                <li class="accordion" data-accordion> <button class="accordion__control" data-control
+                    aria-expanded="false">
+                    <h3 class="accordion__title"> Do I need to pay money in order to be an admin/tutor or a member?
+                    </h3> <span class="accordion__icon"> </span>
+                  </button>
+                  <div class="accordion__content" data-content aria-hidden="true"> Yes, you will pay the membership fees
+                    which will be used for the operation of the organization </div>
+                </li>
+                <li class="accordion" data-accordion> <button class="accordion__control" data-control
+                    aria-expanded="false">
+                    <h3 class="accordion__title"> People Enable is a non-profit organization, Why do you take money ?
+                    </h3> <span class="accordion__icon"> </span>
+                  </button>
+                  <div class="accordion__content" data-content aria-hidden="true"> Yes, it is true. People Enable is
+                    non-profit and no profit will be made, but the money will be used to pay the employees and cover the
+                    operation costs of the organization </div>
+                </li>
+                <li class="accordion" data-accordion> <button class="accordion__control" data-control
+                    aria-expanded="false">
+                    <h3 class="accordion__title"> Can I sign up with my unique skill and charge the members money? </h3>
+                    <span class="accordion__icon"> </span>
+                  </button>
+                  <div class="accordion__content" data-content aria-hidden="true"> Yes, you can and whatever request you
+                    submit will be reviewed by the team and you are more than welcome to offer your skills to the
+                    society </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section> <!-- !Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__header">
+            <h3 class="footer__header-title">People Enable</h3> <a class="footer__header-tel"
+              href="tel:06717861526">06717861526</a>
+          </div>
+          <div class="footer__wrapper">
+            <div class="footer__item">
+              <h4 class="footer__item-title">Relevant links</h4>
+              <ul class="footer__list">
+                <li class="footer__list-item"> <a class="footer__list-link" href="#">home</a> </li>
+                <li class="footer__list-item"> <a class="footer__list-link" href="#">about us</a> </li>
+                <li class="footer__list-item"> <a class="footer__list-link" href="#">activities</a> </li>
+                <li class="footer__list-item"> <a class="footer__list-link" href="#">events</a> </li>
+                <li class="footer__list-item"> <a class="footer__list-link" href="#">blog</a> </li>
+                <li class="footer__list-item"> <a class="footer__list-link" href="#">f&q</a> </li>
+              </ul>
+            </div>
+            <div class="footer__item">
+              <h4 class="footer__item-title">HELP</h4>
+              <ul class="footer__help">
+                <li class="footer__help-item"> <a class="footer__help-link" href="#">PRIVACY POLICY</a> </li>
+                <li class="footer__help-item"> <a class="footer__help-link" href="#">SECURITY</a> </li>
+                <li class="footer__help-link"> <a class="footer__help-link" href="#">TERMS OF SERVICE</a> </li>
+              </ul>
+              <h4 class="footer__item-title">SOCIAL LINKS</h4>
+              <div class="footer__socials"> <a class="footer__socials-link" href="#">
+                  <picture>
+                    <source srcset="./images/inst.svg" type="image/webp"><img src="./images/inst.svg" alt="inst">
+                  </picture>
+                </a> <a class="footer__socials-link" href="#">
+                  <picture>
+                    <source srcset="./images/twitter.svg" type="image/webp"><img src="./images/twitter.svg"
+                      alt="twitter">
+                  </picture>
+                </a> </div>
+            </div>
+            <form class="footer__form">
+              <h4 class="footer__form-title">NEWSLETTER</h4>
+              <div class="footer__form-inner"> <input class="footer__form-mail" type="email" placeholder="E-MAIL">
+                <button class="footer__form-btn" type="submit">SIGN UP</button> </div>
+              <div class="footer__form-descr"> SUBSCRIBE TO OUR NEWSLETTER </div>
+            </form>
+          </div>
+        </div>
+      </footer>
+  </div>
+  <script src="js/calendar.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+

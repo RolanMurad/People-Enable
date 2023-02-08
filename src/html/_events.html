@@ -1,0 +1,100 @@
+<!-- !Calendar -->
+<div class="section__events">
+  <div class="container">
+    <div class="events">
+      <h3 class="events__title">up comming activities</h3>
+      <ul class="events__selects">
+        <li class="dropdown">
+          <button class="dropdown__button" type="button">Category</button>
+          <img class="dropdown__arrow" src="images/down-arrow.svg" alt="arrow">
+          <ul class="dropdown__list">
+            <li class="dropdown__list-item">
+              <a class="dropdown__list-link" href="#">
+                Training
+              </a>
+            </li>
+            <li class="dropdown__list-item">
+              <a class="dropdown__list-link" href="#">
+                Exursions
+              </a>
+            </li>
+            <li class="dropdown__list-item">
+              <a class="dropdown__list-link" href="#">
+                Knowlege
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <button class="dropdown__button" type="button">Location</button>
+          <img class="dropdown__arrow" src="images/down-arrow.svg" alt="arrow">
+          <ul class="dropdown__list">
+            <li class="dropdown__list-item">
+              <a class="dropdown__list-link" href="#">
+                Al-Barsha
+              </a>
+            </li>
+            <li class="dropdown__list-item">
+              <a class="dropdown__list-link" href="#">
+                Palm
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="calendar" id="events">
+        <div class="calendar__wrapper" >
+          <div class="calendar__main">
+            <div class="calendar__header">
+              <div class="calendar__month"></div>
+              <div class="calendar__year"></div>
+              <div class="calendar__next-month">
+                <span></span>
+                <img class="calendar__arrow" src="./images/calendar-arrow.svg" alt="next__month-arrow">
+                <div class="comeback">Prev month</div>
+              </div>
+            </div>
+            <div class="calendar__body">
+              <div class="calendar__weekdays">
+                <div class="calendar__weekdays-item">MO</div>
+                <div class="calendar__weekdays-item">TU</div>
+                <div class="calendar__weekdays-item">WE</div>
+                <div class="calendar__weekdays-item">TH</div>
+                <div class="calendar__weekdays-item">FR</div>
+                <div class="calendar__weekdays-item">SA</div>
+                <div class="calendar__weekdays-item">SU</div>
+              </div>
+              <div class="calendar__days"></div>
+            </div>
+          </div>
+          <div class="calendar__events">
+            <div class="calendar__events-item">Exursions</div>
+            <div class="calendar__events-item">Training</div>
+            <div class="calendar__events-item">Knowlege</div>
+          </div>
+        </div>
+        <div class="calendar__info">
+          <div class="calendar__info-header">
+            <div class="calendar__info-title">
+              EVENTS FOR
+              <span class="calendar__current-day"></span>
+            </div>
+          </div>
+          <div class="calendar__info-body">
+            <div class="calendar__info-item">
+              <div class="calendar__info-event">Diving</div>
+              <div class="calendar__info-places">Free places avaliable</div>
+            </div>
+            <div class="calendar__info-item">
+              <div class="calendar__info-time">12:00 - 13:00</div>
+              <div class="calendar__info-location">Dubai</div>
+            </div>
+          </div>
+          <div class="calendar__info-footer">
+            <a class="calendar__reserve" href="#">Reserve place</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

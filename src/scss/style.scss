@@ -1,0 +1,22 @@
+//!Глобальные переменные 
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+//!Section or Pages
+@import './header';
+@import './hero';
+@import './activities';
+@import './about';
+@import './circles';
+@import './events';
+@import './faq';
+@import './footer';
+
+//!Join
+@import './join/join';
+
+//!Media-Quiries
+@import './media';

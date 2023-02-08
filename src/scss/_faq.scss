@@ -1,0 +1,128 @@
+//!FAQ
+.section {
+  &__faq {
+    padding: 15px 0 120px;
+  }
+}
+
+.faq {
+  &__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 85px;
+
+    span {
+      color: #3FC9D5;
+    }
+  }
+}
+
+.accordion {
+  width: 100%;
+  margin-bottom: 12px;
+
+  &__control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    width: 100%;
+    cursor: pointer;
+    background: rgba(255, 191, 74, 0.29);
+    border-radius: 22px;
+    border: none;
+  }
+
+  &__content {
+    padding: 45px;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-top: 1px solid transparent;
+    background: rgba(255, 191, 74, 0.29);
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 149.5%;
+    color: #000000;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 149.5%;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &__icon {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-out;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 50%;
+      height: 3px;
+      background-color: rgba(0, 0, 0, 0.65);
+      transform: translate(-50%, -50%);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 3px;
+      height: 50%;
+      background-color: rgba(0, 0, 0, 0.65);
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__content {
+    display: none;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    will-change: max-height;
+    transition: all 0.5s ease-out;
+    box-sizing: content-box;
+  }
+}
+
+.open .accordion__content {
+  display: block;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  opacity: 1;
+  padding: 40px;
+}
+
+.accordion.open>.accordion__control {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  position: relative;
+}
+
+.accordion.open>.accordion__control:before {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  width: 50%;
+  border-bottom: 1px solid #000;
+  content: "";
+}
+
+.open .accordion__icon {
+  transform: rotate(45deg);
+}

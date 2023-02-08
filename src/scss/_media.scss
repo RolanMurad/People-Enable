@@ -1,0 +1,757 @@
+// !Media-Queries
+@media(max-width:1300px) {
+  .nav__list-item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  .about {
+    align-items: center;
+  }
+
+  .about__content-text {
+    margin-bottom: 30px;
+  }
+
+  .footer__wrapper {
+    gap: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width:1200px) {
+  .section__hero {
+    padding-top: 90px;
+  }
+
+  .hero__img {
+    margin-top: 0;
+  }
+
+  .hero {
+    align-items: center;
+  }
+
+  .hero__content-title {
+    font-size: 46px;
+    margin-bottom: 20px;
+  }
+
+  .hero__links {
+    margin-top: 40px;
+  }
+
+  .activities__item-link {
+    flex-direction: column;
+    align-items: baseline;
+    gap: 5px;
+  }
+
+  .activities__item {
+    align-items: center;
+    gap: 30px;
+  }
+
+  .circles__item-arrow {
+    left: -5%;
+  }
+
+  .calendar__info {
+    padding: 25px;
+  }
+
+  .calendar__info-body {
+    align-items: center;
+  }
+
+  .calendar__info-event {
+    text-align: center;
+  }
+
+  .calendar__info-title {
+    text-align: center;
+  }
+
+  .calendar__info-header {
+    margin-bottom: 25px;
+  }
+
+  .calendar__info-body {
+    flex-direction: column;
+  }
+
+  .faq__title {
+    text-align: center;
+  }
+
+  .join__cards-btn {
+    align-self: center;
+  }
+
+  .join__cards-item {
+    align-items: center;
+  }
+}
+
+@media(max-width:1024px) {
+  .burger {
+    display: block;
+  }
+
+  .navbar {
+    --header-height: 143px;
+    position: fixed;
+    right: 0;
+    top: var(--header-height);
+    z-index: 1000;
+    background-color: #6DA4EA;
+    width: 60%;
+    max-width: 300px;
+    height: calc(100vh - var(--header-height));
+    padding: 30px;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .navbar--visible {
+    transform: none;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nav__list-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .nav__list a {
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .nav__list-item:last-child {
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    left: 15px;
+    right: 15px;
+    font-size: 22px;
+    background-color: #FB999F;
+    padding: 15px 40px;
+  }
+
+  .circles__item-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .circles__item-wrapper {
+    align-items: center;
+  }
+
+  .circles__item-title {
+    margin-bottom: 15px;
+  }
+
+  .circles__item-text {
+    margin-bottom: 20px;
+  }
+
+  .circles__item-reviews {
+    margin-bottom: 20px;
+  }
+
+  .circles__item-arrow {
+    right: 0;
+  }
+
+  .calendar {
+    flex-direction: column-reverse;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .calendar__wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .calendar__main {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .calendar__events {
+    max-width: 100%;
+  }
+
+  .calendar__info {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .calendar__info-body {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .calendar__info-item {
+    align-items: center;
+  }
+
+  .calendar__days {
+    justify-items: center;
+    column-gap: 0;
+  }
+
+  .calendar__weekdays {
+    justify-content: space-around;
+    gap: 0;
+  }
+
+  .events__title {
+    text-align: center;
+  }
+
+  .section__events {
+    padding-top: 300px;
+  }
+
+  .events__selects {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__wrapper {
+    justify-content: space-around;
+  }
+
+  .footer__form {
+    margin-left: 30px;
+  }
+
+  .footer__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .join__cards-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media(max-width:949px) {
+  .hero {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .hero__content {
+    max-width: 100%;
+  }
+
+  .hero__content-title {
+    text-align: center;
+    font-size: 50px;
+
+    span {
+      white-space: unset;
+    }
+  }
+
+  .hero__content-subtitle {
+    text-align: center;
+  }
+
+  .hero__links {
+    gap: 40px;
+  }
+
+  .hero__link-left {
+    margin-left: auto;
+  }
+
+  .hero__link-right {
+    margin-right: auto;
+  }
+
+  .activities__item {
+    flex-direction: column-reverse;
+    align-items: baseline;
+  }
+
+  .activities__item.activities__item--excursions {
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  .activities__descr {
+    width: 100%;
+  }
+
+  .section__title {
+    text-align: center;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__content-link {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about__content-text {
+    text-align: center;
+  }
+
+  .section__circles {
+    padding-top: 100px;
+  }
+
+  .join__cards-item {
+    flex-basis: 75%;
+  }
+}
+
+@media(max-width:800px) {
+  .faq__title {
+    font-size: 42px;
+    line-height: 60px;
+    margin-bottom: 35px;
+  }
+
+  .accordion__control {
+    padding: 30px 15px;
+  }
+
+  .accordion__content {
+    padding: 30px 15px;
+  }
+
+  .accordion__icon {
+    flex-shrink: 0;
+  }
+
+  .join__cards-cross {
+    top: 15px;
+    right: 15px;
+  }
+}
+
+@media(max-width:650px) {
+  .section__activities {
+    padding: 50px 0 160px;
+  }
+
+  .activities__descr-title {
+    text-align: center;
+  }
+
+  .activities__descr-subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .activities__descr-title::after {
+    left: 20%;
+    width: 60%;
+  }
+
+  .activities__item {
+    align-items: center;
+  }
+
+  .activities__item-link {
+    bottom: -20%;
+  }
+
+  .activities__lists {
+    justify-content: flex-start;
+  }
+
+  .activities__img {
+    align-self: center;
+  }
+
+  .activities__item-link.activities__item-link--excursions {
+    right: 0;
+    left: unset;
+  }
+
+  .activities__item.activities__item--excursions {
+    margin-bottom: 170px;
+  }
+
+  .activities__item.activities__item--training {
+    margin-bottom: 170px;
+  }
+
+  .circles__item-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .circles__item-img {
+    max-width: 100%;
+  }
+
+  .circles__item-title {
+    text-align: center;
+  }
+
+  .circles__item-reviews {
+    justify-content: center;
+  }
+
+  .circles__item-text {
+    text-align: center;
+  }
+
+  .circles__item-links {
+    align-items: center;
+  }
+
+  .section__circles {
+    padding-top: 50px;
+  }
+
+  .circles {
+    margin-top: 50px;
+  }
+
+  .slick-dots {
+    margin-top: 0;
+  }
+
+  .section__circles-title {
+    font-size: 28px;
+    line-height: 43px;
+  }
+
+  .calendar__main {
+    padding: 15px;
+  }
+
+  .calendar__month {
+    margin-right: 15px;
+  }
+
+  .events__title {
+    font-size: 40px;
+    line-height: 65px;
+  }
+
+  .events__selects {
+    margin: 30px 0;
+    justify-content: space-around;
+  }
+
+  .dropdown {
+    margin-right: 5px;
+  }
+
+  .dropdown__button {
+    font-size: 32px;
+  }
+
+  .section__events {
+    padding-bottom: 280px;
+  }
+
+  .section__faq {
+    margin-top: -130px;
+    padding-bottom: 30px;
+  }
+
+  .accordion__title {
+    font-size: 18px;
+  }
+
+  .accordion__content {
+    font-size: 18px;
+  }
+}
+
+@media(max-width:560px) {
+  .hero__link-left {
+    padding: 20px 70px;
+  }
+
+  .activities__descr-subtitle {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .activities__list-item {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .about {
+    gap: 30px;
+  }
+
+  .about__content-text {
+    font-size: 32px;
+    line-height: 47px;
+  }
+
+  .section__title {
+    font-size: 40px;
+  }
+
+  .about__img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer__header {
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer__item:first-child {
+    margin-right: 35px;
+  }
+
+  .footer__wrapper {
+    justify-content: flex-start;
+  }
+
+  .join__title {
+    line-height: 50px;
+  }
+
+  .join__subtitle {
+    font-size: 52px;
+  }
+
+  .join__cards {
+    margin-top: 0;
+  }
+
+  .section__join {
+    padding: 70px 0 20px 0;
+  }
+
+  .join__cards-cross {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media(max-width:499px) {
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .nav__list-item:last-child {
+    right: 10%;
+    left: 10%;
+  }
+
+  .nav__list-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .section__hero {
+    padding: 30px 0;
+  }
+
+  .hero__content-title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .hero__links {
+    flex-direction: column;
+  }
+
+  .hero__link-left {
+    margin: auto;
+  }
+
+  .hero__link-right {
+    margin: auto;
+  }
+
+  .activities__item {
+    gap: 20px;
+  }
+
+  .activities__item.activities__item--excursions {
+    gap: 20px;
+  }
+
+  .activities__list-item {
+    font-size: 27px;
+    gap: 30px;
+  }
+
+  .activities__lists {
+    gap: 40px;
+  }
+
+  .calendar__header {
+    margin-bottom: 20px;
+  }
+
+  .calendar__days {
+    row-gap: 20px;
+  }
+
+  .calendar__month {
+    font-size: 28px;
+  }
+
+  .calendar__year {
+    font-size: 28px;
+  }
+
+  .calendar__next-month {
+    font-size: 22px;
+  }
+
+  .calendar__weekdays-item {
+    font-size: 22px;
+  }
+
+  .accordion__icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .faq__title {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .footer__form {
+    margin-left: 0;
+  }
+
+  .footer__socials {
+    justify-content: center;
+  }
+
+  .footer__form {
+    max-width: 100%;
+  }
+
+  .join__cards-item {
+    flex-basis: 100%;
+  }
+
+  .join__subtitle {
+    margin-bottom: 0;
+  }
+}
+
+@media(max-width:390px) {
+  .calendar__days {
+    row-gap: 10px;
+  }
+
+  .calendar__weekdays {
+    margin-bottom: 10px;
+  }
+
+  .calendar__next-month {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .calendar__month {
+    margin-right: 5px;
+  }
+
+  .calendar__header {
+    margin-bottom: 10px;
+  }
+
+  .calendar__info-title {
+    font-size: 23px;
+    line-height: 34px;
+  }
+
+  .dropdown__arrow {
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: -10%;
+  }
+
+  .dropdown__list-link {
+    padding: 15px 5px;
+  }
+
+  .section__events {
+    margin-top: 0;
+    padding: 100px 0 250px 0;
+  }
+
+  .footer__form-mail {
+    padding: 10px 25px;
+  }
+
+  .footer__form-btn {
+    padding: 10px 25px;
+  }
+
+  .footer__form-title {
+    text-align: center;
+  }
+
+  .footer__form-descr {
+    text-align: center;
+  }
+
+  .footer__item-title {
+    text-align: center;
+  }
+
+  .footer__wrapper {
+    justify-content: center;
+  }
+
+  .footer__list-item {
+    text-align: center;
+  }
+
+  .footer__item:first-child {
+    margin-right: 0;
+  }
+
+  .footer__help {
+    margin-bottom: 20px;
+  }
+
+  .footer__form {
+    margin-top: 30px;
+  }
+}
+
+@media(max-width:320px) {
+  .nav__list-item:last-child {
+    bottom: -30px;
+  }
+}

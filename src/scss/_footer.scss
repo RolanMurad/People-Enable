@@ -1,0 +1,154 @@
+//!Footer
+.footer {
+  padding: 42px 0 90px;
+  background: #FB999F;
+
+  &__header {
+    margin-bottom: 65px;
+  }
+
+  &__header-title {
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 149.5%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.88);
+  }
+
+  &__header-tel {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 149.5%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      color: #6DA4EA;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 160px;
+  }
+
+  &__item-title {
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 149.5%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 20px;
+  }
+
+  &__list-item {
+    margin-bottom: 15px;
+  }
+
+  &__list-link {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 149.5%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.88);
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      text-decoration: underline #6DA4EA;
+      color: #6DA4EA;
+    }
+  }
+
+  &__help {
+    margin-bottom: 60px;
+  }
+
+  &__help-item {
+    margin-bottom: 15px;
+  }
+
+  &__help-link {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 149.5%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.88);
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      text-decoration: underline #6DA4EA;
+      color: #6DA4EA;
+    }
+  }
+
+  &__form {
+    margin-top: 50px;
+  }
+
+  &__form-title {
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 149.5%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.88);
+    margin-bottom: 15px;
+  }
+
+  &__form-inner {
+    display: flex;
+  }
+
+  &__form-mail {
+    width: 340px;
+    padding: 20px 25px;
+    background: rgba(255, 255, 255, 0.6);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+
+    &::placeholder {
+      font-family: 'EB Garamond';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 149.5%;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.38);
+    }
+  }
+
+  &__form-btn {
+    padding: 20px 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: rgba(109, 164, 234, 1);
+    cursor: pointer;
+  }
+
+  &__form-descr {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 149.5%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.88);
+  }
+
+  &__socials {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__socials-link {
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      scale: 1.1;
+    }
+  }
+}

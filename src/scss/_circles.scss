@@ -1,0 +1,157 @@
+// !Circles
+.section {
+  &__circles {
+    padding-top: 180px;
+    background-color: #fff;
+  }
+
+  &__circles-title {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 59px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.circles {
+  margin-top: 115px;
+
+  &__item:not(:last-child) {
+    margin-bottom: 70px;
+  }
+
+  &__item-category {
+    background: linear-gradient(90deg, rgba(255, 191, 74, 0.46) 0%, rgba(251, 153, 159, 0.89) 109.95%);
+    border-radius: 5px;
+    max-width: 195px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 33px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 16px 0;
+    margin-bottom: 40px;
+  }
+
+  &__item-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+  }
+
+  &__item-img {
+    max-width: 340px;
+    width: 100%;
+    height: auto;
+  }
+
+  &__item-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 56px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 22px;
+  }
+
+  &__item-reviews {
+    margin-bottom: 40px;
+    display: flex;
+  }
+
+  &__item-stars {
+    margin-right: 15px;
+  }
+
+  &__item-value {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.37);
+  }
+
+  &__item-text {
+    margin-bottom: 63px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    max-width: 496px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+  }
+
+  &__item-links {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+  }
+
+  &__item--first {
+    padding: 12px 58px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(109, 164, 234, 0.78) 0%, rgba(63, 201, 213, 0.63) 100%);
+    border-radius: 40px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      background-color: #000000;
+      scale: 1.1;
+    }
+  }
+
+  &__item-arrow {
+    position: relative;
+    bottom: 0;
+    left: 100px;
+  }
+
+  &__btn-center {
+    text-align: center;
+  }
+
+  &__show-more {
+    color: rgba(0, 0, 0, 0.69);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 46px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #000000;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    &:hover{
+      scale: 1.1;
+    }
+  }
+
+  &__item:nth-child(n + 4) {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    will-change: max-height;
+    transition: all 0.3s ease-out;
+    margin-bottom: 0;
+  }
+
+  &__item.is-visible {
+    opacity: 1;
+    margin-bottom: 70px;
+  }
+}

@@ -1,0 +1,133 @@
+.join-header {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
+  padding: 58px 0 16px;
+}
+
+.logo {
+  display: inline;
+}
+
+.section {
+  &__join {
+    padding: 68px 0 210px;
+    position: relative;
+  }
+}
+
+.join {
+  &__title {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 88px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 105px;
+    text-transform: uppercase;
+    color: #FB999F;
+    margin-bottom: 27px;
+    text-align: center;
+  }
+
+  &__cards {
+    margin-top: 20px;
+  }
+
+  &__cards-text {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 70px;
+    color: rgba(0, 0, 0, 0.56);
+  }
+
+  &__cards-wrapper {
+    display: flex;
+    gap: 23px;
+  }
+
+  &__cards-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 411px;
+    padding: 27px 23px 20px 23px;
+    border: 2px solid #6DA4EA;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      scale: 1.1;
+    }
+  }
+
+  &__cards-title {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 62px;
+    color: rgba(0, 0, 0, 0.81);
+    margin-bottom: 8px;
+  }
+
+  &__cards-descr {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 112.3%;
+    color: rgba(0, 0, 0, 0.46);
+    margin-bottom: 35px;
+  }
+
+  &__cards-btn {
+    align-self: flex-end;
+    background: #6DA4EA;
+    border-radius: 14px;
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      background-color: #002793;
+    }
+
+    &::before {
+      position: absolute;
+      content: "";
+      inset: 0;
+    }
+  }
+
+  &__cards-cross {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      scale: 1.1;
+    }
+  }
+}
+
+

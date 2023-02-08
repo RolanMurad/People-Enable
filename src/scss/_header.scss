@@ -1,0 +1,127 @@
+//!Header
+.header {
+  padding: 58px 0 16px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+//!Navbar
+.nav__list {
+  display: flex;
+  align-items: center;
+
+  &-item {
+    a {
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 34px;
+      color: black;
+    }
+
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      scale: 1.1;
+      border-bottom: 2px solid #6DA4EA;
+    }
+  }
+
+  &-item:not(:last-child) {
+    margin-right: 70px;
+  }
+
+  &-item:last-child {
+    position: relative;
+
+    a {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 23px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+
+    a::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    padding: 8px 36px;
+    background-color: #6DA4EA;
+    border-radius: 14px;
+
+    &:hover {
+      background-color: #014bac;
+    }
+  }
+}
+
+.burger {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  display: none;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #6DA4EA;
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, bottom 0.3s ease-in-out;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: 0;
+  }
+
+  &__line {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 3px;
+    background-color: #6DA4EA;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+
+.burger--active .burger__line {
+  opacity: 0;
+}
+
+.burger--active::before {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+.burger--active::after {
+  top: 50%;
+  bottom: auto;
+  transform: rotate(-45deg);
+}
+
+.stop-scroll {
+  overflow: hidden;
+}
